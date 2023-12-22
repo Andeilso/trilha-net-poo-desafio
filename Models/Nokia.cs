@@ -15,5 +15,12 @@ namespace DesafioPOO.Models
             Console.WriteLine($"{nomeApp} - Instalado com sucesso!!!");
             Console.WriteLine();
         }
+
+        public override void DesinstalarAplicativo(string nomeApp){
+            Console.WriteLine($"Desinstalando {nomeApp}...");
+            AppsInstalados.Remove(nomeApp);
+            Console.WriteLine($"{nomeApp} - Desinstalado com sucesso!!!");
+            Console.WriteLine();
+        }
     }
 }

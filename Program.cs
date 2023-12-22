@@ -34,5 +34,7 @@ iphone12Pro.InstalarAplicativo("SnapChat");
 iphone12Pro.InstalarAplicativo("Instagram");
 iphone12Pro.InstalarAplicativo("WhatsApp");
 iphone12Pro.ListarAppsInstalados();
+iphone12Pro.DesinstalarAplicativo("WhatsApp");
+iphone12Pro.ListarAppsInstalados();
 Console.WriteLine("------------------------------------------------------------------");
 Console.WriteLine();
