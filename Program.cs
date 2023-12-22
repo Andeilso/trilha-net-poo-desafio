@@ -1,6 +1,9 @@
 ﻿using DesafioPOO.Models;
 
 
+//Testando se pode ser instanciada
+// Smartphone smart1 = new Smartphone(); // Erro por ser abstrato - OK
+
 Console.WriteLine("Nokia MD12 -------------------------------------------------------");
 Console.WriteLine();
 Nokia nokiaMD12 = new Nokia("98754-4893", "MD12", " 564392-58-430065-7", 128);
